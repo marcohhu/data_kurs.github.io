@@ -1,4 +1,4 @@
-# Introduction
+# Einleitung
 
-This is the first real chapter.
+das ist mein erster Eintrag.
 
