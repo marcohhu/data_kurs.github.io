@@ -1,5 +1,5 @@
 --- 
-title: "Data Übung mit R"
+title: "Datenanalyse mit R"
 author: "Marco"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -9,7 +9,7 @@ biblio-style: apalike
 link-citations: yes
 github-repo: marcohhu/data_kurs.github.io
 url: 'http\://marcohhu/data_kurs.github.io/'
-description: "keine Ahnung"
+description: "tbc..."
 ---
 
 # Preface {-}
