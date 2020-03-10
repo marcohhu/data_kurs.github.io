@@ -1,5 +1,3 @@
 [
-["index.html", "Datenanalyse mit R Preface", " Datenanalyse mit R Marco 2020-03-10 Preface tbc… "],
-["einleitung.html", "Einleitung Who will find this book useful?", " Einleitung In den Sozialwissenschaften wird R zur Datenanalyse zunehmend verwendet. Who will find this book useful? Das Buch ist als Ergänzung zur Data-Übung gedacht. "],
-["getting-started.html", "Getting started R und RStudio", " Getting started R und RStudio Im Kurs nutzen wir Rstudio. Und RStudio müssen wir erstmal installieren. "]
+["getting-started.html", "Getting started R und RStudio", " Getting started Zunächst müssen wir eine Einstellungen vornehmen. R und RStudio Im Kurs nutzen wir Rstudio. Und RStudio müssen wir erstmal installieren. "]
 ]
