@@ -4,6 +4,7 @@ tbc..
 
 
 
+
 ## R in a Nutshell
 
 tbc...
@@ -21,7 +22,7 @@ Aber R muss auch erlernt werden. Und Software verunsichert uns häufig, wenn sie
 
 ## Installation von R 
 
-Bevor wir starten, müssen wir R zunächst installieren. Auf der Website des Cran-Projekts („The Comprehensive R Archive Network“) können wir R downloaden und installieren. Wir beachten einfach den Hinweisen („install R for the first time“) auf der Homepage via [Cran](https://cran.r-project.org/). Wenn wir R auf unserem Computer installiert haben, dann können wir mit einem Doppelklick das Programm öffnen und in der R Console starten. 
+Bevor wir starten, müssen wir R zunächst installieren. Auf der Website des Cran-Projekts („The Comprehensive R Archive Network“) können wir R downloaden und installieren. Wir beachten einfach den Hinweisen (_„install R for the first time“_) auf der Homepage via [Cran](https://cran.r-project.org/). Wenn wir R auf unserem Computer installiert haben, dann können wir mit einem Doppelklick das Programm öffnen und in der R Console starten. 
 
 ## Die R Console
 
@@ -29,14 +30,20 @@ Die R Console erinnert etwas an Windows 98. Deshalb installieren wir auch späte
 
 \includegraphics[width=21.25in]{img/s_r-console} 
 In der Console können wir direkt mit unserem Code beginnen. Um einen ersten Eindruck von R zu bekommen, halten wir uns an die alte Tradition ein Programm mit dem Ergebnis „Hello World!“ zu schreiben. Dafür nutzen wir die `print()` Funktion, geben in die Console `print(„Hello World!“)` ein und bestätigen mit Enter. 
-Glückwunsch, damit haben wir unseren ersten R Code geschrieben. Die Console können wir aber auch als Taschenrechner nutzen: So können wir 15 Prozent Trinkgeld von unserem 35,70 Euro Bierdeckel in einer Kneipe berechnen, indem wir einfach 0.15 * 35.70 in die Console eingeben und mit Enter bestätigen. 
+
+```r
+print("Hello World!")
+## [1] "Hello World!"
+```
+
+Super, damit haben wir unseren ersten R Code geschrieben. 
+Die Console können wir aber auch als Taschenrechner nutzen: So können wir 15 Prozent Trinkgeld von unserem 35,70 Euro Bierdeckel in einer Kneipe berechnen, indem wir einfach 0.15 * 35.70 in die Console eingeben und mit Enter bestätigen. 
 
 ```r
 0.15 * 35.70
-```
-
-```
 ## [1] 5.355
 ```
 Das Ergebnis lautet 5,35 Euro. Falls ein Fehler auftritt, könnte dies an einem Komma `,` statt an einem Punkt `.` zur Trennung liegen.
 
+
+## RStudio

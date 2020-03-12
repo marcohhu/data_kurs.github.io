@@ -1,10 +1,38 @@
+--- 
+title: "Datenanalyse mit R"
+author: "Marco"
+date: "2020-03-12"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: marcohhu/data_kurs.github.io
+url: 'http\://marcohhu/data_kurs.github.io/'
+description: "tbc..."
+---
+
+# Preface {-}
+
+tbc...
+
+<!--chapter:end:index.Rmd-->
+
+# Einleitung {-}
+
+In den Sozialwissenschaften wird **R** zur Datenanalyse zunehmend verwendet.
+
+## Who will find this book useful? {-}
+
+Das Buch ist als Ergänzung zur Data-Übung gedacht.
+
+
+<!--chapter:end:intro.Rmd-->
+
 # Getting started
 tbc..
 
-```{r, include=FALSE}
-img_path <- "img"
 
-```
 
 
 
@@ -30,22 +58,26 @@ Bevor wir starten, müssen wir R zunächst installieren. Auf der Website des Cra
 ## Die R Console
 
 Die R Console erinnert etwas an Windows 98. Deshalb installieren wir auch später Rstudio, dass uns die Arbeit erleichtert und eher unserem Selbstbild als erfolgreiche Analysten entspricht. Aber erstmal gucken wir uns die Console an.
-```{r,echo=FALSE}
-knitr::include_graphics(file.path(img_path, "s_r-console.png"))
-```
-In der Console können wir direkt mit unserem Code beginnen. Um einen ersten Eindruck von R zu bekommen, halten wir uns an die alte Tradition ein Programm mit dem Ergebnis „Hello World!“ zu schreiben. Dafür nutzen wir die `print()` Funktion, geben in die Console `print(„Hello World!“)` ein und bestätigen mit Enter. 
-```{r hello_world, collapse=TRUE}
-print("Hello World!")
 
+\includegraphics[width=21.25in]{img/s_r-console} 
+In der Console können wir direkt mit unserem Code beginnen. Um einen ersten Eindruck von R zu bekommen, halten wir uns an die alte Tradition ein Programm mit dem Ergebnis „Hello World!“ zu schreiben. Dafür nutzen wir die `print()` Funktion, geben in die Console `print(„Hello World!“)` ein und bestätigen mit Enter. 
+
+```r
+print("Hello World!")
+## [1] "Hello World!"
 ```
 
 Super, damit haben wir unseren ersten R Code geschrieben. 
 Die Console können wir aber auch als Taschenrechner nutzen: So können wir 15 Prozent Trinkgeld von unserem 35,70 Euro Bierdeckel in einer Kneipe berechnen, indem wir einfach 0.15 * 35.70 in die Console eingeben und mit Enter bestätigen. 
-```{r tip, collapse = TRUE}
-0.15 * 35.70
 
+```r
+0.15 * 35.70
+## [1] 5.355
 ```
 Das Ergebnis lautet 5,35 Euro. Falls ein Fehler auftritt, könnte dies an einem Komma `,` statt an einem Punkt `.` zur Trennung liegen.
 
 
 ## RStudio
+
+<!--chapter:end:getting-started.Rmd-->
+
