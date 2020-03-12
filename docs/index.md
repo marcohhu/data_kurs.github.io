@@ -1,7 +1,7 @@
 --- 
 title: "Datenanalyse mit R"
 author: "Marco"
-date: "2020-03-10"
+date: "2020-03-12"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
