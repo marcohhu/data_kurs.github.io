@@ -1,8 +1,8 @@
 # Einleitung {-}
 
-In den Sozialwissenschaften wird **R** zur Datenanalyse zunehmend verwendet.
+tbc...
 
 ## Who will find this book useful? {-}
 
-Das Buch ist als Ergänzung zur Data-Übung gedacht.
+Das Buch ist als Ergänzung zur Data-Übung gedacht...
 

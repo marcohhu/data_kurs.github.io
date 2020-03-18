@@ -1,7 +1,7 @@
 --- 
 title: "Datenanalyse mit R"
 author: "Marco"
-date: "2020-03-12"
+date: "2020-03-18"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
@@ -14,4 +14,4 @@ description: "tbc..."
 
 # Preface {-}
 
-tbc...
+[Work in Process]

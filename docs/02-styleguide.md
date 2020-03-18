@@ -1,0 +1,21 @@
+# Styleguide
+
+## Gute Praxis
+
+wie schreibe ich "guten" Code
+
+## R Projekte
+
+Ziel: Ein R Projekt und entsprechende Unterordner anlegen, um nicht die Übersicht zu verlieren. Kurzer Abschnitt, wie Pfade definiert und gesetzt werden.
+Organisation eines Projekts
+
+* R Projekt
+  + set-up.R
+  + R Code
+  + Input
+  + Grafiken
+  + Output
+
+## Trial and Error
+
+## Help
