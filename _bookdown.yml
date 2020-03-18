@@ -2,6 +2,6 @@ book_filename: "Datenanalyse mit R"
 chapter_name: "Kapitel "
 repo: https://github.com/seankross/bookdown-start
 output_dir: docs
-rmd_files: ["index.Rmd", "intro.Rmd", "getting-started.Rmd", "02-styleguide.Rmd"]
+rmd_files: ["index.Rmd", "intro.Rmd", "getting-started.Rmd", "styleguide.Rmd"]
 clean: [packages.bib, bookdown.bbl]
 new_session: yes

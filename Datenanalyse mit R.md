@@ -1,3 +1,34 @@
+--- 
+title: "Datenanalyse mit R"
+author: "Marco"
+date: "2020-03-18"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: marcohhu/data_kurs.github.io
+url: 'http\://marcohhu/data_kurs.github.io/'
+description: "tbc..."
+---
+
+# Preface {-}
+
+[Work in Process]
+
+<!--chapter:end:index.Rmd-->
+
+# Einleitung {-}
+
+tbc...
+
+## Who will find this book useful? {-}
+
+Das Buch ist als Ergänzung zur Data-Übung gedacht...
+
+
+<!--chapter:end:intro.Rmd-->
+
 # Getting started
 tbc..
 
@@ -49,3 +80,31 @@ Das Ergebnis lautet 5,35 Euro. Falls ein Fehler auftritt, könnte dies an einem 
 ## RStudio
 
 ## Pakate
+
+<!--chapter:end:getting-started.Rmd-->
+
+# Styleguide
+
+## Gute Praxis
+
+wie schreibe ich "guten" Code
+
+## R Projekte
+
+Ziel: Ein R Projekt und entsprechende Unterordner anlegen, um nicht die Übersicht zu verlieren. Kurzer Abschnitt, wie Pfade definiert und gesetzt werden.
+Organisation eines Projekts
+
+* R Projekt
+  + set-up.R
+  + R Code
+  + Input
+  + Grafiken
+  + Output
+
+## Trial and Error
+
+## Help
+tbc
+
+<!--chapter:end:styleguide.Rmd-->
+
