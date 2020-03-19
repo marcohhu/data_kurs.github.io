@@ -18,6 +18,10 @@ description: "tbc..."
 
 <!--chapter:end:index.Rmd-->
 
+---
+output: webex::webex_default
+---
+
 # Einleitung {-}
 
 tbc...
