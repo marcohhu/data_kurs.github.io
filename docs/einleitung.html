@@ -182,9 +182,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="aufgaben" class="section level2 unnumbered">
 <h2>Aufgaben</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">library</span>(webex)</a></code></pre></div>
 <p>Create fill-in-the-blank questions using <code>fitb()</code>, providing the answer as the first argument (e.g., <code>fitb("4")</code>).</p>
 <ul>
 <li>2 + 2 is <input class='solveme nospaces' size='1' data-answer='["4"]'/></li>
+</ul>
+<p>Make a multiple choice question by setting the first argument to <code>mcq()</code> to a vector where the answer(s) are labeled <code>answer</code> (e.g., <code>mcq(c("0", "3.14", answer = "42", "100", "none of the above"))</code>)</p>
+<ul>
+<li>“Never gonna give you up, never gonna: <select class='solveme' data-answer='["let you down"]'> <option></option> <option>let you go</option> <option>turn you down</option> <option>run away</option> <option>let you down</option></select>”</li>
+<li>“I <select class='solveme' data-answer='["bless the rains"]'> <option></option> <option>bless the rains</option> <option>guess it rains</option> <option>sense the rain</option></select> down in Africa”</li>
+<li>“There’s nothing that a hundred men <select class='solveme' data-answer='["or more"]'> <option></option> <option>on Mars</option> <option>or more</option> <option>named Marv</option></select> could ever do”</li>
 </ul>
 
 </div>
