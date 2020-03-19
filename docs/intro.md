@@ -15,6 +15,13 @@ Das Buch ist als Ergänzung zur Data-Übung gedacht...
 
 
 
+<style>
+    .solveme { border-color: #FFFF00; }
+    .solveme.correct { border-color: #FF3399; }
+</style>
+
+
+
 Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
 
 - 2 + 2 is <input class='solveme nospaces' size='1' data-answer='["4"]'/>

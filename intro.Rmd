@@ -21,6 +21,7 @@ if (!requireNamespace("webex")) {
 }
 ```
 
+`r style_widgets("#FFFF00", "#FF3399")`
 
 Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
 
