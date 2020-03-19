@@ -6,12 +6,14 @@ tbc...
 
 Das Buch ist als Ergänzung zur Data-Übung gedacht...
 
-## Aufgaben
+## Aufgaben {-}
 
 ```{r pakete, echo=FALSE}
 library(webex)
 ```
 
 
-"Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
+Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
+
+- 2 + 2 is `r fitb("4")`
 
