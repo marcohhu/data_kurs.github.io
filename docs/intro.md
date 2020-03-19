@@ -13,9 +13,6 @@ Das Buch ist als Ergänzung zur Data-Übung gedacht...
 ## Aufgaben {-}
 
 
-```r
-library(webex)
-```
 
 
 Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
