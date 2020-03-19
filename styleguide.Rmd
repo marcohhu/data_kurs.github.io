@@ -1,4 +1,4 @@
-# Styleguide
+# Styleguide {#style}
 
 ## Gute Praxis
 

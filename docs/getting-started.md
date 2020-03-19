@@ -1,4 +1,4 @@
-# Getting started
+# Getting started {#start}
 tbc..
 
 
@@ -48,4 +48,4 @@ Das Ergebnis lautet 5,35 Euro. Falls ein Fehler auftritt, könnte dies an einem 
 
 ## RStudio
 
-## Pakate
+## Pakete

@@ -2,7 +2,16 @@
 
 tbc...
 
-## Who will find this book useful? {-}
+## Konventionen {-}
 
 Das Buch ist als Ergänzung zur Data-Übung gedacht...
+
+## Aufgaben
+
+```{r pakete, echo=FALSE}
+library(webex)
+```
+
+
+"Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
 
