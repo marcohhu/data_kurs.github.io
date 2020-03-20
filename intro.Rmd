@@ -6,28 +6,17 @@ tbc...
 
 Das Buch ist als Ergänzung zur Data-Übung gedacht...
 
+* Packages werden als `package()` gezeigt
+
 ## Aufgaben {-}
 
-```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-if (!requireNamespace("webex")) {
-  stop("You must have the 'webex' package installed to knit HTML from this template.\n   devtools::install_github(\"psyteachr/webex\")")
-} else {
-  library("webex")
-}
-```
+Aufgaben für die Studierenden können in unterschiedliche Formen in das Dokument eingebettet werden. 
 
-`r style_widgets("#FFFF00", "#FF3399")`
+1. Quiz
+Mit dem `Webex-Package` können Quiz-Fragen zum Selbststudium bereitgestellt werden. Das Dokument kann allerdings nicht heruntergeladen oder Antworten gespeichert werden. Beispiele für verschiedene Möglichkeiten findest du [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/sandbox_quiz.html) 
 
-Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
+2. Jupyter-Notebooks
+Jupyter-Notebooks sind eine IDE-Alternative zu RStudio. Aus meiner Perspektive ist die Installation und Handhabe etwas komplizierter. Allerdings bieten Notebooks eine gute Möglichkeit um Aufgabenblätter zu formulieren, da Notebooks heruntergeladen und bearbeitet werden können (aber auch nur in Jupyter-Notebooks und nicht in RStudio). Auch dazu gibt es ein Beispiel aus einem anderen Tutorium siehe [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/vis.html)
 
-- 2 + 2 is `r fitb("4")`
-
-
-
-Make a multiple choice question by setting the first argument to `mcq()` to a vector where the answer(s) are labeled `answer` (e.g., `mcq(c("0", "3.14", answer = "42", "100", "none of the above"))`)
-
-- "Never gonna give you up, never gonna: `r mcq(c("let you go", "turn you down", "run away", answer = "let you down"))`"
-- "I `r mcq(c(answer = "bless the rains", "guess it rains", "sense the rain"))` down in Africa"
-- "There's nothing that a hundred men `r mcq(c("on Mars", answer = "or more", "named Marv"))` could ever do"
-
+3. R-Notebooks
+Auch RStudio bietet ein Notebook Format an. Großer Vorteil: Das Notebook kann direkt von der Seite heruntergeladen und in Rstudio geöffnet sowie bearbeitet werden. Ein Beispiel findest du [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/sandbox.nb.html.html)

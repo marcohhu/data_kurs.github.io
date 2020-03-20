@@ -1,7 +1,3 @@
----
-output: webex::webex_default
----
-
 # Einleitung {-}
 
 tbc...
@@ -10,27 +6,17 @@ tbc...
 
 Das Buch ist als Ergänzung zur Data-Übung gedacht...
 
+* Packages werden als `package()` gezeigt
+
 ## Aufgaben {-}
 
+Aufgaben für die Studierenden können in unterschiedliche Formen in das Dokument eingebettet werden. 
 
+1. Quiz
+Mit dem `Webex-Package` können Quiz-Fragen zum Selbststudium bereitgestellt werden. Das Dokument kann allerdings nicht heruntergeladen oder Antworten gespeichert werden. Beispiele für verschiedene Möglichkeiten findest du [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/sandbox_quiz.html) 
 
+2. Jupyter-Notebooks
+Jupyter-Notebooks sind eine IDE-Alternative zu RStudio. Aus meiner Perspektive ist die Installation und Handhabe etwas komplizierter. Allerdings bieten Notebooks eine gute Möglichkeit um Aufgabenblätter zu formulieren, da Notebooks heruntergeladen und bearbeitet werden können (aber auch nur in Jupyter-Notebooks und nicht in RStudio). Auch dazu gibt es ein Beispiel aus einem anderen Tutorium siehe [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/vis.html)
 
-<style>
-    .solveme { border-color: #FFFF00; }
-    .solveme.correct { border-color: #FF3399; }
-</style>
-
-
-
-Create fill-in-the-blank questions using `fitb()`, providing the answer as the first argument (e.g., `fitb("4")`).
-
-- 2 + 2 is <input class='solveme nospaces' size='1' data-answer='["4"]'/>
-
-
-
-Make a multiple choice question by setting the first argument to `mcq()` to a vector where the answer(s) are labeled `answer` (e.g., `mcq(c("0", "3.14", answer = "42", "100", "none of the above"))`)
-
-- "Never gonna give you up, never gonna: <select class='solveme' data-answer='["let you down"]'> <option></option> <option>let you go</option> <option>turn you down</option> <option>run away</option> <option>let you down</option></select>"
-- "I <select class='solveme' data-answer='["bless the rains"]'> <option></option> <option>bless the rains</option> <option>guess it rains</option> <option>sense the rain</option></select> down in Africa"
-- "There's nothing that a hundred men <select class='solveme' data-answer='["or more"]'> <option></option> <option>on Mars</option> <option>or more</option> <option>named Marv</option></select> could ever do"
-
+3. R-Notebooks
+Auch RStudio bietet ein Notebook Format an. Großer Vorteil: Das Notebook kann direkt von der Seite heruntergeladen und in Rstudio geöffnet sowie bearbeitet werden. Ein Beispiel findest du [hier](https://marcohhu.github.io/data_kurs.github.io/notebooks/sandbox.nb.html.html)
